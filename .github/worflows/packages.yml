@@ -1,8 +1,8 @@
 name: Build and Push Docker Images
 on:
   push:
-    branches:
-      - github-packages
+    branches: 
+      - packages
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
